@@ -5,7 +5,7 @@ const navLinks = [
   { href: '#accomplishments', label: 'Accomplishments' },
   { href: '#infrastructure', label: 'Flood & Infrastructure' },
   { href: '#community', label: 'Community & Small Business' },
-  { href: '#vision', label: 'Get Involved' },
+  { href: '#get-involved', label: 'Get Involved' },
   { href: '#contact', label: 'Contact' },
 ]
 

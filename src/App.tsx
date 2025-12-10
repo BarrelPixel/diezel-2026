@@ -5,6 +5,7 @@ import Infrastructure from './components/Infrastructure'
 import Community from './components/Community'
 import Vision from './components/Vision'
 import GetInvolved from './components/GetInvolved'
+import Contact from './components/Contact'
 import Footer from './components/Footer'
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
         <Community />
         <Vision />
         <GetInvolved />
+        <Contact />
       </main>
       <Footer />
     </div>

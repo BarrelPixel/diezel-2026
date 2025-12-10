@@ -33,7 +33,7 @@ const priorities = [
 
 export default function Vision() {
   return (
-    <section className="bg-dock-wood/10 py-16 lg:py-24">
+    <section id="vision" className="bg-dock-wood/10 py-16 lg:py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="mb-12 lg:mb-16">
           <p className="text-sm uppercase tracking-widest text-heritage-red font-medium mb-4">
