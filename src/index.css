@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+/* Custom theme configuration */
+@theme {
+  /* Core Colors */
+  --color-river-navy: #0B2340;
+  --color-heritage-red: #B3212D;
+  --color-egret-white: #F7F4EF;
+
+  /* Support Colors */
+  --color-dock-wood: #C6A47A;
+  --color-lagoon-blue: #3B6FA6;
+  --color-signal-amber: #F5A623;
+  --color-slate-asphalt: #31343A;
+
+  /* Typography */
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-slate-asphalt);
+  background-color: var(--color-egret-white);
+  line-height: 1.6;
+}
+
+/* Ensure headings use serif font */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+}
+
+/* Focus styles for accessibility */
+:focus-visible {
+  outline: 2px solid var(--color-lagoon-blue);
+  outline-offset: 2px;
+}
+
+/* Remove default focus outline and rely on focus-visible */
+:focus:not(:focus-visible) {
+  outline: none;
+}
